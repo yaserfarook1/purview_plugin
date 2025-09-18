@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: Purview DLP Dashboard
+  version: "1.0.0"
+  description: This API provides a one-month summary of the Purview DLP Dashboard's functionality and features, including data loss prevention insights, compliance monitoring, and reporting capabilities.
+servers:
+  - url: https://<your-purview-dlp-app-url>
+paths:
+  /:
+    get:
+      operationId: GetDashboardSummary
+      summary: Returns a summary of the Purview DLP Dashboard for the past month
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  summary:
+                    type: string
+                    example: "In the past month, the Purview DLP Dashboard has monitored X incidents, provided Y reports, and improved compliance by Z%."

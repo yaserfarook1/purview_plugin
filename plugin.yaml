@@ -1,0 +1,11 @@
+Descriptor:
+  Name: PurviewDLPMonthlyReportGenerator
+  DisplayName: Purview DLP Monthly Report Generator
+  Description: This plugin generates monthly reports specifically designed for the SOC team, facilitating the analysis and management of data loss prevention (DLP) activities. The Purview DLP Monthly Report Generator automates the reporting process, helping the SOC team to efficiently monitor and respond to DLP incidents.
+  SupportedAuthTypes:
+    - None
+
+SkillGroups:
+  - Format: API
+    Settings:
+      OpenApiSpecUrl: https://raw.githubusercontent.com/yaserfarook1/purview_dlp_api/main/openapi.yaml
