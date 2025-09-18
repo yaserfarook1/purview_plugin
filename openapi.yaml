@@ -4,7 +4,7 @@ info:
   version: "1.0.0"
   description: This API provides a one-month summary of the Purview DLP Dashboard's functionality and features, including data loss prevention insights, compliance monitoring, and reporting capabilities.
 servers:
-  - url: https://<your-purview-dlp-app-url>
+  - url: https://purview-plugin.onrender.com
 paths:
   /:
     get:
