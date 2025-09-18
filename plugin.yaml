@@ -8,4 +8,5 @@ Descriptor:
 SkillGroups:
   - Format: API
     Settings:
-      OpenApiSpecUrl: https://raw.githubusercontent.com/yaserfarook1/purview_dlp_api/main/openapi.yaml
+
+      OpenApiSpecUrl: https://raw.githubusercontent.com/yaserfarook1/purview_plugin/main/openapi.yaml
