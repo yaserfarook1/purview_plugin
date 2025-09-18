@@ -6,9 +6,5 @@ app = FastAPI()
 @app.get("/hello")
 def hello():
     return JSONResponse(content={
-        "message": "Hello Farook, You can see your dashboard reports",
-        "dashboard_link": {
-            "url": "http://localhost:5174/",
-            "label": "Dashboard"
-        }
+        "message": 'Hello Farook, You can see your dashboard reports at <a href="http://localhost:5174/" target="_blank">Dashboard</a>'
     })
