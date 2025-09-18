@@ -6,7 +6,7 @@ info:
 servers:
   - url: https://purview-plugin.onrender.com
 paths:
-  /:
+  /hello:
     get:
       operationId: GetDashboardSummary
       summary: Returns a summary of the Purview DLP Dashboard for the past month
